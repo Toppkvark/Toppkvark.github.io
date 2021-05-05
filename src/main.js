@@ -4,10 +4,7 @@ import vuetify from './plugins/vuetify'
 import VueRouter from "vue-router";
 import Home from "./components/Home";
 
-/*import SprintOne from "./components/SprintOne";
-import SprintTwo from "./components/SprintTwo";
-import SprintThree from "./components/SprintThree";
-import SprintFour from "./components/SprintFour";
+/*
 import About from "./components/About";*/
 
 Vue.config.productionTip = false
