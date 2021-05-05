@@ -15,22 +15,12 @@
           gradient="to top right, rgba(19,84,122,.5), rgba(128,208,199,.8)"
         ></v-img>
       </template>
-
       <v-app-bar-title>Toppkvark</v-app-bar-title>
-      <template v-slot:extension>
-        <v-tabs align-with-title>
-          <v-tab link to="/" exact >Home</v-tab>
-          <v-tab link to="/SprintOne">Sprint 1</v-tab>
-          <v-tab link to="/SprintTwo">Sprint 2</v-tab>
-          <v-tab link to="/SprintThree">Sprint 3</v-tab>
-          <v-tab link to="/SprintFour">Sprint 4</v-tab>
-          <v-tab link to="/About">About</v-tab>
-        </v-tabs>
-      </template>
       <v-spacer></v-spacer>
     </v-app-bar>
     <v-main>
       <v-container style="height: 1500px">
+        <Home></Home>
         <router-view></router-view>
       </v-container>
     </v-main>
@@ -38,10 +28,18 @@
 </template>
 
 <script>
+/*import SprintOne from "./components/SprintOne";
+import SprintTwo from "./components/SprintTwo";
+import SprintThree from "./components/SprintThree";
+import SprintFour from "./components/SprintFour";*/
+import Home from "./components/Home";
+
 export default {
   name: "App",
 
-  components: {},
+  components: {
+  Home: Home
+  },
 
   data: () => ({
     //
