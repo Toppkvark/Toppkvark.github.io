@@ -1,7 +1,7 @@
 <template >
   <div>
     <v-timeline align-top :dense="$vuetify.breakpoint.smAndDown">
-      <v-timeline-item fill-dot>
+      <v-timeline-item fill-dot color="red">
         <v-card dark>
           <v-card-title class="title"> Sprint 4 </v-card-title>
           <v-card-text class="white text--primary">
@@ -23,7 +23,7 @@
           </v-card-text>
         </v-card>
       </v-timeline-item>
-      <v-timeline-item fill-dot>
+      <v-timeline-item fill-dot color="red" >
         <v-card dark>
           <v-card-title class="title"> Sprint 2 </v-card-title>
           <v-card-text class="white text--primary">
@@ -46,7 +46,7 @@
               choose time intervals). Sketching and implementing basic
               visual design and basic map view.
             </p>
-            <v-btn rounded link to="/SprintOne" class="mx-0"> Go to Sprint 1<v-icon class="ml-3">mdi-arrow-down</v-icon></v-btn>
+            <v-btn rounded link to="/SprintOne" @click.native="scrollToTop" class="mx-0"> Go to Sprint 1<v-icon class="ml-3">mdi-arrow-down</v-icon></v-btn>
           </v-card-text>
         </v-card>
       </v-timeline-item>
