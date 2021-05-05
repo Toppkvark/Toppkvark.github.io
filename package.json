@@ -9,7 +9,9 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "prism-themes": "^1.7.0",
     "vue": "^2.6.11",
+    "vue-code-highlight": "^0.7.6",
     "vue-router": "^3.5.1",
     "vuetify": "^2.4.0"
   },

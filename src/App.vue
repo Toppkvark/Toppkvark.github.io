@@ -1,6 +1,5 @@
-<template>
+e<template>
   <v-app id="app">
-
     <v-app-bar
       app
       absolute
@@ -30,12 +29,12 @@
     </v-app-bar>
 
     <v-main>
-      <v-container fluid>
+      <v-container fluid id="container">
         <router-view></router-view>
       </v-container>
     </v-main>
 
-    <v-footer app padless absolute>
+    <v-footer app padless absolute outlined>
       <v-col class="text-center" cols="12">
         2021 — <strong>II1305 VT21 Group Toppkvark</strong>
         <v-btn plain link to="/About">About</v-btn>
@@ -56,4 +55,19 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+#container {
+  padding: 64px 256px 0px 300px;
+  margin-top: 0px;
+}
+@media screen and (max-width: 1000px) {
+  #container {
+    padding: none;
+  }
+}
+@media screen and (max-width: 1500px) {
+  #container {
+    padding: 64px 128px 0px 150px;
+  }
+}
+</style>
