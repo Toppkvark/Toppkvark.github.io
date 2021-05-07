@@ -11,10 +11,16 @@ e<template>
       <template v-slot:img="{ props }">
         <v-img
           v-bind="props"
-          gradient="to top right, rgba(19,84,122,.5), rgba(128,208,199,.8)"
+          gradient="to top right, rgba(2,0,36,1), rgba(24, 88, 184,.7)"
         ></v-img>
       </template>
-      <v-app-bar-title>Toppkvark</v-app-bar-title>
+      <v-row class="d-flex justify-space-between">
+        <v-col cols="6"/>
+        <v-col cols="6" >
+          <h1 class="text-end" style="margin-top: 3vh">Toppkvark</h1>
+        </v-col>
+      </v-row>
+              
       <v-spacer></v-spacer>
       <template v-slot:extension>
         <v-tabs align-with-title>
@@ -56,6 +62,7 @@ export default {
 </script>
 
 <style>
+
 #container {
   padding: 64px 256px 0px 300px;
   margin-top: 0px;

@@ -3,24 +3,24 @@
      <h1>Sprint 3</h1>
     <br />
     <h2>Sprint Duration</h2>
-    <p>
+    <div class="body-1">
       03-07 May
-    </p>
+    </div>
     <h2>Sprint Goal</h2>
-    <p>
+    <div class="body-1">
       Time slots visable on map.
-    </p>
+    </div>
 
     <h2>Accomplished during the sprint</h2>
-    <p>
+    <div class="body-1">
       During this sprint we continued implementing MVC architecture.
       We were unfortunately not able to get a hold of API' we needed 
       and so we’ve resorted to building our own database, starting with a 
       simple .json and implementing functionality. We also overhauld the 
       start page. <br />
-    </p>
+    </div>
     <h2>Image Gallery</h2>
-    <p>Sketch and implementation</p>
+    <div class="body-1" style="margin-bottom: 3vh">Sketch and implementation</div>
     <v-window show-arrows>
       <template v-slot:prev="{ on, attrs }">
         <v-btn color="info" text fab v-bind="attrs" v-on="on">

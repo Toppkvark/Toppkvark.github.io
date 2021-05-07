@@ -3,21 +3,21 @@
     <h1>Sprint 2</h1>
     <br />
     <h2>Sprint Duration</h2>
-    <p>
+    <div class="body-1">
       26-30 April
-    </p>
+    </div>
     <h2>Sprint Goal</h2>
-    <p>
+    <div class="body-1">
       Interactive map, management of data and implementation of functionality.
-    </p>
+    </div>
 
     <h2>Accomplished during the sprint</h2>
-    <p>
+    <div class="body-1">
       Implemented interactive floorplan, data handling and functionality. We
       were able to have a meeting with a KTH staff member about the API we
       intended to use. We implemented a lot of functionality to the website and
       most of the UI/UX is finished.<br />
-    </p>
+    </div>
     
   </div>
 </template>

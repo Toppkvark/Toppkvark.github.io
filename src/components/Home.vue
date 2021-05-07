@@ -18,7 +18,7 @@
                   <v-spacer />
                   19-23 April
                 </v-card-title>
-                <v-card-text class="white text--primary">
+                <v-card-text class="text--primary">
                   <p>
                     <br />
                     Learn the underlying technologies. Sketch and implement
@@ -47,7 +47,7 @@
                   <v-spacer />
                   26-30 April
                 </v-card-title>
-                <v-card-text class="white text--primary">
+                <v-card-text class="text--primary">
                   <p>
                     <br />
                     Interactive map, management of data and implementation of
@@ -70,7 +70,7 @@
                   <v-spacer />
                   03-07 May
                 </v-card-title>
-                <v-card-text class="white text--primary">
+                <v-card-text class="text--primary">
                   <p>
                     <br />
                     Time slots visable on map.
@@ -91,7 +91,7 @@
                   <v-spacer />
                   10-19 May
                 </v-card-title>
-                <v-card-text class="white text--primary">
+                <v-card-text class="text--primary">
                   <p>
                     <br />
                     TBA
@@ -128,4 +128,11 @@ p {
   white-space: initial;
   word-break: normal;
 }
+.title {
+  background-color: rgba(39, 54, 114, 0.965)
+}
+.text--primary{
+  background-color: black
+}
+
 </style>

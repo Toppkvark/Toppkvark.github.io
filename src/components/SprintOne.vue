@@ -3,21 +3,21 @@
     <h1>Sprint 1</h1>
     <br />
     <h2>Sprint Duration</h2>
-    <p>
+    <div class="body-1">
       9-23 April
-    </p>
+    </div>
     <h2>Sprint Goal</h2>
-    <p>
+    <div class="body-1">
       Learn the underlying technologies. Sketch and implement basic user
       interface and funtions.
-    </p>
+    </div>
     <h2>Acomplished during the sprint</h2>
-    <p>
+    <div class="body-1" style="margin-bottom: 3vh">
       Spent time learning the technologies we plan to use (react, material-ui,
       etc.). Made sketches for the wireframes. Implemented basic functions
       (choose campus, picking light/dark mode, choosing time intervals). Made
-      sketches for the UI and map. Researched API's and contacted keyholders.
-    </p>
+      sketches for the UI and map. Researched API's and contacted keyholders. <br/>
+    </div>
     <v-lazy>
       <v-carousel
         cycle
@@ -62,4 +62,6 @@ export default {
   },
 };
 </script>
-<style></style>
+<style>
+
+</style>

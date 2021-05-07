@@ -1,14 +1,14 @@
 <template>
   <div>
     <h1>Project info</h1>
-    <p>
+    <div class="body-1" style="margin-bottom: 2vh">
       Our project is to create a graphical tool to book group rooms at KTH's
       campuses.
       <br />
       This project was done as a part of the course II1305 (Project in
       information and comunications technology) at KTH during spring semester
       period 2 2021.
-    </p>
+    </div>
     <h2>Team info</h2>
     <v-row dense>
       <v-col v-for="card in cards" :key="card.name" :cols="card.flex">
@@ -22,14 +22,14 @@
             <v-tooltip bottom>
               <template v-slot:activator="{ on, attrs }">
                 <v-btn
-                  color="#000333"
+                  color="#6e5494"
                   v-bind="attrs"
                   v-on="on"
                   :href="card.github"
                   target="_blank"
                   icon
                 >
-                  <v-icon>mdi-github</v-icon>
+                  <v-icon color="white">mdi-github</v-icon>
                 </v-btn>
               </template>
               <span>Github</span>
