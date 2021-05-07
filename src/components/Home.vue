@@ -132,7 +132,7 @@ p {
   background-color: rgba(39, 54, 114, 0.965)
 }
 .text--primary{
-  background-color: black
+  background-color: rgba(53, 53, 53, 0.965)
 }
 
 </style>
