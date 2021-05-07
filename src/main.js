@@ -8,15 +8,11 @@ import SprintTwo from "./components/SprintTwo";
 import SprintThree from "./components/SprintThree";
 import SprintFour from "./components/SprintFour";
 import About from "./components/About";
-import VueCodeHighlight from "vue-code-highlight";
 
-/*
-import About from "./components/About";*/
 
 Vue.config.productionTip = false;
 
 Vue.use(VueRouter);
-Vue.use(VueCodeHighlight); //registers the v-highlight directive
 
 const router = new VueRouter({
   mode: "hash",
@@ -28,11 +24,6 @@ const router = new VueRouter({
     { path: "/SprintFour", component: SprintFour },
     { path: "/About", component: About },
     { path: "*", component: Home }, // Catch all
-    /*{ 
-      path: '/:catchAll(.*)', 
-      component: Home,
-      name: 'Home'
-    },*/
   ],
 });
 
