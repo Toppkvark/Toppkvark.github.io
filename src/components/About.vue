@@ -1,4 +1,4 @@
-<template lang="">
+<template>
   <div>
     <h1>Project info</h1>
     <p>
@@ -13,9 +13,8 @@
     <v-row dense>
       <v-col v-for="card in cards" :key="card.name" :cols="card.flex">
         <v-card>
-          <v-card-title v-text="card.name" />
-          <v-subheader
-            >{{ card.role }} <br />
+          <v-card-title class="names" v-text="card.name" />
+          <v-subheader class="names">{{ card.role }} <br />
             {{ card.mail }}</v-subheader
           >
           <v-card-actions>
@@ -128,4 +127,12 @@ export default {
   }),
 };
 </script>
-<style lang=""></style>
+<style >
+.names {
+  font-size: 18px;
+  word-wrap: normal;
+  overflow-wrap: normal;
+  white-space: initial;
+  word-break: normal;
+}
+</style>

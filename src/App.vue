@@ -59,6 +59,7 @@ export default {
 #container {
   padding: 64px 256px 0px 300px;
   margin-top: 0px;
+  margin-bottom: 100px;
 }
 @media screen and (max-width: 1000px) {
   #container {

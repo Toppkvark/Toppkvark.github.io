@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-card>
+    <v-card elevation="0">
       <v-card-title class="text-center">
         <div style="width: 100%">
           <strong> Sprint Timeline </strong>
