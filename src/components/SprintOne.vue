@@ -18,6 +18,8 @@
       (choose campus, picking light/dark mode, choosing time intervals). Made
       sketches for the UI and map. Researched API's and contacted keyholders. <br/>
     </div>
+
+    <h3 class="text-center">Gallery</h3>
     <v-lazy>
       <v-carousel
         cycle
@@ -31,7 +33,7 @@
         <v-carousel-item v-for="(item, i) in items" :key="i" :src="item.src">
           <v-row class="fill-height" align="end" justify="center">
             <div class="display-2" style="color: #111111">
-              <strong>Gallery</strong>
+              
             </div>
           </v-row>
         </v-carousel-item>

@@ -1,6 +1,6 @@
 <template>
   <div>
-     <h1>Sprint 3</h1>
+    <h1>Sprint 3</h1>
     <br />
     <h2>Sprint Duration</h2>
     <div class="body-1">
@@ -10,7 +10,6 @@
     <div class="body-1">
       Time slots visable on map.
     </div>
-
     <h2>Accomplished during the sprint</h2>
     <div class="body-1">
       During this sprint we continued implementing MVC architecture.
