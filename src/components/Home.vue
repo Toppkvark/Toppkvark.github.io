@@ -94,7 +94,7 @@
                 <v-card-text class="text--primary">
                   <p>
                     <br />
-                    TBA
+                    Implement booking system and functionality, have a completed finished product
                   </p>
                   <v-btn rounded link to="/SprintFour" class="mx-0"
                     >Go to Sprint 4

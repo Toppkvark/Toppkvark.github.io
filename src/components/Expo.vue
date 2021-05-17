@@ -9,16 +9,15 @@
     </div>
     <h2>Contact</h2>
     <div class="body-1">
-      sample text
+      If you have any questions during the expo you can contact us through:
     </div>
     <h4>Email</h4>
     <div class="body-1">
-      example@example.com
+      grupptoppkvark@protonmail.com
     </div>
-    <h4>Zoom</h4>
+    <h4>Discord</h4>
     <div class="body-1">
-      Available between sample <br />
-      Link: sample
+      <a target="_blank" href="https://discord.gg/3QpgbRDWux"> Link </a>
     </div>
     <br />
     <v-btn
@@ -32,6 +31,7 @@
     >
     <br />
     <br />
+    <!--
     <h2 class="text-center">Image Gallery</h2>
     <v-lazy>
       <v-carousel
@@ -50,6 +50,7 @@
         </v-carousel-item>
       </v-carousel>
     </v-lazy>
+    -->
   </div>
 </template>
 <script>

@@ -8,11 +8,19 @@
     </div>
     <h2>Sprint Goal</h2>
     <div class="body-1">
-        Sample text
+      Implement booking system and functionality, have a completed finished
+      product.
     </div>
     <h2>Accomplished during the sprint</h2>
     <div class="body-1">
-        Sample text
+      Created fully functional booking system by utilizing firebase. Ability to
+      book 1-2 hour sessions. Error handling on invalid inputs. Ability to see
+      and cancel current booking. Limited bookings to one per user. List of
+      rooms overhauled and is now completely functional. UI tuneup. Project
+      deployed through firebase to:
+      <a target="_blank" href="https://toppkvark-b34b5.web.app/"
+        >toppkvark-b34b5.web.app</a
+      >.
     </div>
   </div>
 </template>

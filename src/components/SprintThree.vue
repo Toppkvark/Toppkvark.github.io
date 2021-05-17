@@ -13,7 +13,7 @@
     <h2>Accomplished during the sprint</h2>
     <div class="body-1">
       During this sprint we continued implementing MVC architecture.
-      We were unfortunately not able to get a hold of API' we needed 
+      We were unfortunately not able to get a hold of API's we needed 
       and so we’ve resorted to building our own database, starting with a 
       simple .json and implementing functionality. We also overhauld the 
       start page. <br />
