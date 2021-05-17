@@ -11,7 +11,7 @@
           style="width: 100%"
         >
           <v-lazy transition="scroll-x-transition">
-            <v-timeline-item left fill-dot>
+            <v-timeline-item left fill-dot color="red">
               <v-card dark>
                 <v-card-title class="title">
                   Sprint 1
@@ -63,7 +63,7 @@
             </v-timeline-item>
           </v-lazy>
           <v-lazy transition="scroll-x-transition">
-            <v-timeline-item left fill-dot>
+            <v-timeline-item left fill-dot color="red">
               <v-card dark>
                 <v-card-title class="title">
                   Sprint 3
@@ -99,6 +99,24 @@
                   <v-btn rounded link to="/SprintFour" class="mx-0"
                     >Go to Sprint 4
                     <v-icon class="ml-3">mdi-arrow-right</v-icon></v-btn
+                  >
+                </v-card-text>
+              </v-card>
+            </v-timeline-item>
+          </v-lazy>
+          <v-lazy transition="scroll-x-transition" hide-on-leave>
+            <v-timeline-item left fill-dot color="green">
+              <v-card dark>
+                <v-card-title class="title">
+                  Project finished
+                  <v-spacer />
+                  19 May
+                </v-card-title>
+                <v-card-text class="text--primary">
+                  <br/>
+                  <v-btn rounded target="_blank" href="https://toppkvark-b34b5.web.app/" class="mx-0"
+                    >Go to website
+                    <v-icon class="ml-3">mdi-exit-to-app</v-icon></v-btn
                   >
                 </v-card-text>
               </v-card>

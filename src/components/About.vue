@@ -7,7 +7,8 @@
       <br />
       This project was done as a part of the course II1305 (Project in
       information and comunications technology) at KTH during spring semester
-      period 2 2021.
+      period 2 2021. The project is now finished and can be reached at:
+      <a target="_blank" href="https://toppkvark-b34b5.web.app/">toppkvark-b34b5.web.app</a>.
     </div>
     <h2>Team info</h2>
     <v-row dense>

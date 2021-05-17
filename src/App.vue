@@ -1,4 +1,4 @@
-e<template>
+<template>
   <v-app id="app">
     <v-app-bar
       app
@@ -29,6 +29,7 @@ e<template>
           <v-tab link to="/SprintTwo">Sprint 2</v-tab>
           <v-tab link to="/SprintThree">Sprint 3</v-tab>
           <v-tab link to="/SprintFour">Sprint 4</v-tab>
+          <v-tab link to="/Expo">Expo</v-tab>
           <v-tab link to="/About">About</v-tab>
         </v-tabs>
       </template>

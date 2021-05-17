@@ -8,6 +8,7 @@ import SprintTwo from "./components/SprintTwo";
 import SprintThree from "./components/SprintThree";
 import SprintFour from "./components/SprintFour";
 import About from "./components/About";
+import Expo from "./components/Expo";
 
 
 Vue.config.productionTip = false;
@@ -22,6 +23,7 @@ const router = new VueRouter({
     { path: "/SprintTwo", component: SprintTwo },
     { path: "/SprintThree", component: SprintThree },
     { path: "/SprintFour", component: SprintFour },
+    { path: "/Expo", component: Expo },
     { path: "/About", component: About },
     { path: "*", component: Home }, // Catch all
   ],
