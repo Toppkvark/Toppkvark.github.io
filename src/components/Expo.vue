@@ -19,6 +19,15 @@
     <div class="body-1">
       <a target="_blank" href="https://discord.gg/3QpgbRDWux"> Link </a>
     </div>
+    <h2>Feedback</h2>
+    <div class="body-1">
+      Please give feedback through this
+      <a
+        target="_blank"
+        href="https://docs.google.com/forms/d/1qe6j_1T3zRJISk2RdLfrCtJ3KNslBgkLACjZEUqJu80/edit"
+        >form</a
+      >.
+    </div>
     <br />
     <v-btn
       outlined
